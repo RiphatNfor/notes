@@ -1,0 +1,34 @@
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.note-form{
+  display: flex;
+  margin-bottom: 10px;
+}
+input[type="text"]{
+  flex: 1;
+  padding: 5px;
+}
+button{
+  padding:  5px 10px;
+  background: blue;
+color: white;
+ border: 1px red solid;
+ font-weight: bold;
+}
+ul{
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.btn{
+  background: red;
+  border: 1px blue solid;
+  font-weight: bold;
+}
